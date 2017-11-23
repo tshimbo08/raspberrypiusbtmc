@@ -1,0 +1,123 @@
+#USB TMC instrument
+
+#PLZ4W
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1002", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1003", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1004", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1005", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1006", GROUP="usbtmc", MODE="0660"
+
+#KFM
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1007", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1008", GROUP="usbtmc", MODE="0660"
+
+#PCR-M
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1009", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="100a", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="100b", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="100c", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="100d", GROUP="usbtmc", MODE="0660"
+
+#PAT
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="100e", GROUP="usbtmc", MODE="0660"
+
+#TOS3200
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1010", GROUP="usbtmc", MODE="0660"
+
+#PMP
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1011", GROUP="usbtmc", MODE="0660"
+
+#PBZ
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1012", GROUP="usbtmc", MODE="0660"
+
+#PIA
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1014", GROUP="usbtmc", MODE="0660"
+
+#KHA
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1015", GROUP="usbtmc", MODE="0660"
+
+#TOS5300
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1017", GROUP="usbtmc", MODE="0660"
+
+#KFM2005
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1018", GROUP="usbtmc", MODE="0660"
+
+#PLZ4WL
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1019", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1020", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1021", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1022", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1023", GROUP="usbtmc", MODE="0660"
+
+#PWX
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1024", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1025", GROUP="usbtmc", MODE="0660"
+
+#DME1600
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1026", GROUP="usbtmc", MODE="0660"
+
+#FGA5050
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1027", GROUP="usbtmc", MODE="0660"
+
+#PWX
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1028", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1029", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="102a", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="102b", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="102c", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="102e", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="102f", GROUP="usbtmc", MODE="0660"
+
+#PCR-LE
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1030", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1031", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1032", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1033", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1034", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1035", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1036", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1037", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1038", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1039", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="103a", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="103b", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="103c", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="103d", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="103e", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="103f", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1040", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1041", GROUP="usbtmc", MODE="0660"
+
+#PLZ5W
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1042", GROUP="usbtmc", MODE="0660"
+
+#PCR4000M
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1043", GROUP="usbtmc", MODE="0660"
+
+#DSI
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1044", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1045", GROUP="usbtmc", MODE="0660"
+
+#TOS5200
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1046", GROUP="usbtmc", MODE="0660"
+
+#PCR-WE
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="104e", GROUP="usbtmc", MODE="0660"
+
+#PWR01
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="1049", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="104a", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="104b", GROUP="usbtmc", MODE="0660"
+
+#PAV
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="104c", GROUP="usbtmc", MODE="0660"
+
+#PCR-WE
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="104d", GROUP="usbtmc", MODE="0660"
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="104e", GROUP="usbtmc", MODE="0660"
+
+#TOS9300
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idVendor}=="0b3e", ATTRS{idProduct}=="104f", GROUP="usbtmc", MODE="0660"
+
+KERNEL=="usbtmc/*",       MODE="0660", GROUP="usbtmc"
+KERNEL=="usbtmc[0-9]*",   MODE="0660", GROUP="usbtmc"
